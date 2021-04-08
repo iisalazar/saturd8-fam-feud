@@ -1,0 +1,31 @@
+body {
+	text-align: center;
+	background: #ccc;
+}
+
+* {
+	transition: all 0.3s;
+}
+
+.body {
+	margin-top: 70px;
+	width: 100%;
+}
+.content {
+	margin-top: 50px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cards {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+
+	& > .card {
+		margin: 0 20px 30px 0;
+	}
+}

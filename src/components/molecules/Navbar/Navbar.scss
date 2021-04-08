@@ -1,0 +1,27 @@
+nav.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 919px;
+	padding: 10px;
+	margin: auto;
+	box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	background: #fff;
+
+	.item {
+		font-family: "Poppins", serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 21px;
+		color: black;
+		text-decoration: none;
+		padding: 10px 5px;
+
+		&:hover {
+			background: #888;
+			color: #fff;
+		}
+	}
+}
