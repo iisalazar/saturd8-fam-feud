@@ -8,5 +8,6 @@ export interface Category {
 	id: number;
 	title: string;
 	description: string;
+	source?: string;
 	entries: Array<Entry>;
 }
