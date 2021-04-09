@@ -25,6 +25,9 @@ function AnswersPage() {
 	return (
 		<>
 			<h1>{category.title}</h1>
+			<p>
+				Source: <a href={category.source}>{category.source}</a>
+			</p>
 			<div className="content">
 				<div className="cards">
 					{entries.map((entry: Entry, idx) => (
